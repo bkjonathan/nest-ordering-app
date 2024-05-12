@@ -26,6 +26,26 @@ Open a terminal window (Command Prompt on Windows, Terminal app on macOS) and ru
 docker version
 ```
 
+## Installation
+
+```bash
+$ yarn install
+```
+## Copy ENV file
+
+```bash
+$ cp ./apps/orders/.env.example ./apps/orders/.env
+```
+
+```bash
+$ cp ./apps/billing/.env.example ./apps/billing/.env
+```
+
+```bash
+$ cp ./apps/auth/.env.example ./apps/auth/.env
+```
+
+
 ## Run Backend service
 
 ```bash

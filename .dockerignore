@@ -1,11 +1,10 @@
-.git
+/.git
 .gitignore
 .dockerignore
 
-dist.do
-node_modules
-
-*.env
+/dist
+/node_modules
+.DS_Store
 
 .eslintrc.js
 .prettierrc.js
